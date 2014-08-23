@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    %title EarthPolluted
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = html_import_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  %body{:fullbleed => "", :unresolved => "", :layout => ""}
+    %core-header-panel
+      %core-toolbar#mainheader
+        %paper-icon-button#navicon{:icon => 'menu', :style=>"fill:red;"}
+        %span{:flex => ""} EarthPolluted
+        %paper-icon-button#searchbutton{:icon => "search"}
+      = yield
+      
