@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/AppFellas/polymer-google-map.git
-  revision: bf752a3a6b2b0770a8166580472bf2556cb980a5
+  revision: d622a29e894e6607ca6470dd90d995006c79e4b9
   specs:
     polymer-google-map (0.0.1)
       polymer-core-rails (~> 0.1.1)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/AppFellas/polymer-google-apis.git
-  revision: 49b1a17dba5e37825dea57ac43cbed17ea33f2b5
+  revision: 85b63c31eb3291f44270ccdd5fd0019231ab2929
   specs:
     polymer-google-apis (0.0.1)
       polymer-core-rails (~> 0.1.1)
