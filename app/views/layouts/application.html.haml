@@ -2,15 +2,18 @@
 %html
   %head
     %title EarthPolluted
+    
+    %meta{:name=>"viewport", :content=>"width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes"}
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = html_import_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
-  %body{:fullbleed => "", :unresolved => "", :layout => ""}
+  %body{:fullbleed => "", :unresolved => "", :layout => "", :'touch-action'=>"auto"}
     %core-header-panel
       %core-toolbar#mainheader
         %paper-icon-button#navicon{:icon => 'menu', :style=>"fill:red;"}
-        %span{:flex => ""} EarthPolluted
+        %span{:flex => "", :tool => ""} EarthPolluted
+        %facebook-login{:appID=>"574205766041260"}
         %paper-icon-button#searchbutton{:icon => "search"}
       = yield
       

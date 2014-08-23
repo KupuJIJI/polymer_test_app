@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/AppFellas/polymer-facebook-login.git
+  revision: ee5780457709a049e763bfc77abdeecd76bad87e
+  specs:
+    polymer-facebook-login (0.0.1)
+      polymer-core-rails (~> 0.1.1)
+      polymer-rails (~> 0.1.9)
+
+GIT
   remote: git://github.com/AppFellas/polymer-google-map.git
   revision: d622a29e894e6607ca6470dd90d995006c79e4b9
   specs:
@@ -197,6 +205,7 @@ DEPENDENCIES
   jquery-rails
   mongoid
   polymer-core-rails!
+  polymer-facebook-login!
   polymer-google-apis!
   polymer-google-map!
   polymer-paper-rails!

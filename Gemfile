@@ -44,6 +44,8 @@ gem 'polymer-google-apis', :github => "AppFellas/polymer-google-apis"
 
 gem 'polymer-google-map', :github => "AppFellas/polymer-google-map"
 
+gem 'polymer-facebook-login', :github => "AppFellas/polymer-facebook-login" 
+
 gem 'mongoid'
 
 gem 'haml'
