@@ -16,6 +16,12 @@
 
 body {
   font-family: helvetica;
+  fill: #444;
+}
+
+html, body {
+  height: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 core-header-panel {
@@ -29,7 +35,30 @@ core-header-panel {
   -webkit-overflow-scrolling: touch; 
 }
 
+google-map {
+  /*display: block;*/
+  /*height: 100vh;*/
+}
+
 core-toolbar {
   background-color: #03A9F4;
   color: white;
+}
+
+core-drawer-panel {
+  background-color: #ccc;
+}
+
+#drawerheader {
+  background-color: #03A8FF;
+}
+
+/*#addressFld {
+  font-size: 14px;
+}*/
+
+paper-input {
+  max-width: 20em;
+  width: auto;
+  font-size: 0.8em;
 }

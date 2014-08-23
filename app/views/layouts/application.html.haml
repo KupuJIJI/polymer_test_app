@@ -8,12 +8,22 @@
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = html_import_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
-  %body{:fullbleed => "", :unresolved => "", :layout => "", :'touch-action'=>"auto"}
-    %core-header-panel
-      %core-toolbar#mainheader
-        %paper-icon-button#navicon{:icon => 'menu', :style=>"fill:red;"}
-        %span{:flex => "", :tool => ""} EarthPolluted
-        %facebook-login{:appID=>"574205766041260"}
-        %paper-icon-button#searchbutton{:icon => "search"}
-      = yield
+  %body{:fullbleed => "", :unresolved => "", :layout => "", :vertical => "", :'touch-action'=>"auto"}
+
+    %google-api-loader{:id=>"places", :name=>"places", :version=>"v1"}
+
+    %core-drawer-panel{:id => "drawerPanel"}
+    
+      %core-header-panel{:drawer => ""}  
+        %core-toolbar#drawerheader
+          %span{:flex => ""} EarthPolluted
+        %div Some Content  
+      
+      %core-header-panel{:main => "", :flex => ""}  
+        %core-toolbar#mainheader
+          %paper-icon-button#navicon{:icon => 'menu', :style=>"fill:red;"}
+          %paper-input#addressFld{:label=>"Search Address"}
+          /%facebook-login{:appID=>"574205766041260"}
+          %paper-icon-button#searchbutton{:icon => "search"}
+        = yield
       

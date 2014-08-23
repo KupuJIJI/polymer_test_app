@@ -1,6 +1,4 @@
-:css
-  google-map {
-    display: block;
-    height: 600px;
-  }
-%google-map{:latitude => "37.77493", :longitude => "-122.41942", :apiKey => "AIzaSyC-Y5c5cS7F7z534_neQwCdoSnwZzVPZLM"}
+%template#mapbinding{:is=>"auto-binding"}
+  %google-map-search#map-search{:map=>"{{map}}",:apiKey => "AIzaSyC-Y5c5cS7F7z534_neQwCdoSnwZzVPZLM", :result => "{{result}}"}
+  %google-map{:latitude => "37.77493", :longitude => "-122.41942", :apiKey => "AIzaSyC-Y5c5cS7F7z534_neQwCdoSnwZzVPZLM", :fit => "", :map => "{{map}}"}
+  /%zdk-waiting

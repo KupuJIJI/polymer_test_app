@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.0'
+gem 'rails', '4.1.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -42,7 +42,7 @@ gem 'polymer-paper-rails', :github => "AppFellas/polymer-paper-rails"
 
 gem 'polymer-google-apis', :github => "AppFellas/polymer-google-apis"
 
-gem 'polymer-google-map', :github => "AppFellas/polymer-google-map"
+gem 'polymer-google-map', :path => "../components/polymer-google-map" #:github => "AppFellas/polymer-google-map"
 
 gem 'polymer-facebook-login', :github => "AppFellas/polymer-facebook-login" 
 
