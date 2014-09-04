@@ -1,9 +1,8 @@
-PATH
-  remote: ../components/polymer-google-map
+GIT
+  remote: git://github.com/AppFellas/polymer-core-rails.git
+  revision: 202232dc1ed66eba00fe275b2f47e11acb86052a
   specs:
-    polymer-google-map (0.0.1)
-      polymer-core-rails (~> 0.1.1)
-      polymer-google-apis (~> 0.0.1)
+    polymer-core-rails (0.1.1)
       polymer-rails (~> 0.1.9)
 
 GIT
@@ -15,6 +14,15 @@ GIT
       polymer-rails (~> 0.1.9)
 
 GIT
+  remote: git://github.com/AppFellas/polymer-google-analytics.git
+  revision: f210aedba5b67699324a5cfa8336024434d85759
+  specs:
+    polymer-google-analytics (0.0.1)
+      polymer-core-rails (~> 0.1.1)
+      polymer-google-apis (~> 0.0.1)
+      polymer-rails (~> 0.1.9)
+
+GIT
   remote: git://github.com/AppFellas/polymer-google-apis.git
   revision: 85b63c31eb3291f44270ccdd5fd0019231ab2929
   specs:
@@ -23,18 +31,65 @@ GIT
       polymer-rails (~> 0.1.9)
 
 GIT
+  remote: git://github.com/AppFellas/polymer-google-chart.git
+  revision: d94c94936a1ca6e76e6a255d881d92a0e08a0b73
+  specs:
+    polymer-google-chart (0.0.1)
+      polymer-core-rails (~> 0.1.1)
+      polymer-google-apis (~> 0.0.1)
+      polymer-rails (~> 0.1.9)
+
+GIT
+  remote: git://github.com/AppFellas/polymer-google-cloud.git
+  revision: 5a5b8e3c8e0f61975d51f60da180b1b99b94be20
+  specs:
+    polymer-google-cloud (0.0.1)
+      polymer-core-rails (~> 0.1.1)
+      polymer-google-apis (~> 0.0.1)
+      polymer-rails (~> 0.1.9)
+
+GIT
+  remote: git://github.com/AppFellas/polymer-google-map.git
+  revision: fc119102f3e8e76725f677d679fa2ec27a4cdcf7
+  specs:
+    polymer-google-map (0.0.1)
+      polymer-core-rails (~> 0.1.1)
+      polymer-google-apis (~> 0.0.1)
+      polymer-rails (~> 0.1.9)
+
+GIT
+  remote: git://github.com/AppFellas/polymer-google-streetview-pano.git
+  revision: 65303f113f06e9282e71bab65ffe6b0f2bd1627b
+  specs:
+    polymer-google-streetview-pano (0.0.1)
+      polymer-core-rails (~> 0.1.1)
+      polymer-google-apis (~> 0.0.1)
+      polymer-rails (~> 0.1.9)
+
+GIT
+  remote: git://github.com/AppFellas/polymer-google-url-shortener.git
+  revision: bb31170068795f9492bebcf61eeb0a77758d1d08
+  specs:
+    polymer-google-url-shortener (0.0.1)
+      polymer-core-rails (~> 0.1.1)
+      polymer-google-apis (~> 0.0.1)
+      polymer-rails (~> 0.1.9)
+
+GIT
+  remote: git://github.com/AppFellas/polymer-google-youtube.git
+  revision: ab1750b1f5bd34500461bbca12af6895b396a3c3
+  specs:
+    polymer-google-youtube (0.0.1)
+      polymer-core-rails (~> 0.1.1)
+      polymer-google-apis (~> 0.0.1)
+      polymer-rails (~> 0.1.9)
+
+GIT
   remote: git://github.com/AppFellas/polymer-paper-rails.git
   revision: a7562f005769dc6ff8e17559ebccce9f588abf25
   specs:
     polymer-paper-rails (0.1.1)
       polymer-core-rails (~> 0.1.1)
-      polymer-rails (~> 0.1.9)
-
-GIT
-  remote: git://github.com/AppFellas/polymer-core-rails.git
-  revision: 202232dc1ed66eba00fe275b2f47e11acb86052a
-  specs:
-    polymer-core-rails (0.1.1)
       polymer-rails (~> 0.1.9)
 
 GEM
@@ -205,8 +260,14 @@ DEPENDENCIES
   mongoid
   polymer-core-rails!
   polymer-facebook-login!
+  polymer-google-analytics!
   polymer-google-apis!
+  polymer-google-chart!
+  polymer-google-cloud!
   polymer-google-map!
+  polymer-google-streetview-pano!
+  polymer-google-url-shortener!
+  polymer-google-youtube!
   polymer-paper-rails!
   polymer-rails (~> 0.1.9)
   rails (= 4.1.5)

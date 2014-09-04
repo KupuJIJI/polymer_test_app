@@ -42,10 +42,16 @@ gem 'polymer-paper-rails', :github => "AppFellas/polymer-paper-rails"
 
 gem 'polymer-google-apis', :github => "AppFellas/polymer-google-apis"
 
-gem 'polymer-google-map', :path => "../components/polymer-google-map" #:github => "AppFellas/polymer-google-map"
+gem 'polymer-google-map', :github => "AppFellas/polymer-google-map"
 
 gem 'polymer-facebook-login', :github => "AppFellas/polymer-facebook-login" 
 
+gem 'polymer-google-youtube', :github => "AppFellas/polymer-google-youtube" 
+gem 'polymer-google-url-shortener', :github => "AppFellas/polymer-google-url-shortener" 
+gem 'polymer-google-streetview-pano', :github => "AppFellas/polymer-google-streetview-pano" 
+gem 'polymer-google-chart', :github => "AppFellas/polymer-google-chart" 
+gem 'polymer-google-analytics', :github => "AppFellas/polymer-google-analytics" 
+gem 'polymer-google-cloud', :github => "AppFellas/polymer-google-cloud" 
 gem 'mongoid'
 
 gem 'haml'

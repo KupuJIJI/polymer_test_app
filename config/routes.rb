@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
   
   get 'home/about'
+  get 'home/youtube'
+  get 'home/url'
+  get 'home/pano'
+  get 'home/chart'
+  get 'home/analytics'
+  get 'home/cloud'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
